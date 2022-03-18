@@ -2,6 +2,6 @@
         "full_name": "Your full name",
         "project_name": "Your project name",
         "_copy_without_render": [
-		"./resources/views/*"
+		"*resources/views/*"
         ]
 }
