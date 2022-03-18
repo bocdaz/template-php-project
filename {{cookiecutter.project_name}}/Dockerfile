@@ -4,7 +4,7 @@ WORKDIR /app
 COPY . /app
 RUN composer install
 
-FROM php:7.2-apache
+FROM php:7.3.33-apache
 
 EXPOSE 80
 COPY --from=build /app /app
